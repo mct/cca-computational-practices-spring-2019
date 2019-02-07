@@ -21,11 +21,13 @@ In class, we [talked about](../README.md) animations in P5 and how to use variab
 Watch the following Daniel Shiffman videos about variables and animation in P5 and Javascript:
 
 - [2.1](https://www.youtube.com/watch?v=RnS0YNuLfQQ&index=7&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-- [2.2](https://www.youtube.com/watch?v=Bn_B3T_Vbxs&index=8&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-- [3.1](https://www.youtube.com/watch?v=Bn_B3T_Vbxs&index=8&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- [2.2](https://www.youtube.com/watch?v=Bn_B3T_Vbxs&index=8&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)<p>
+- [3.1](https://www.youtube.com/watch?v=1Osb_iGDdjk&index=12&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [3.2](https://www.youtube.com/watch?v=LO3Awjn_gyU&index=13&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [3.3](https://www.youtube.com/watch?v=r2S7j54I68c&index=14&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [3.4](https://www.youtube.com/watch?v=Rk-_syQluvc&index=15&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+
+*(Note: We're skipping a few videos in the series.  After video 2.2, you can skip to video 3.1)*
 
 The code we wrote together in class with the two balls bouncing can be found in the [class repository README file](../README.md) under the **Week 2** section.
 

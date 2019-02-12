@@ -2,7 +2,7 @@
 
 This course repository contains homework assignments, useful guides, and code for **Computational Practices 1** at CCA, Spring 2019.
 
-### Week 1: Monday, January 28, 2019
+## Week 1: Monday, January 28, 2019
 
 Inspiration:
 - [Interviews with Practitioners](https://www.youtube.com/watch?v=eBV14-3LT-g)
@@ -19,7 +19,7 @@ Hands-on activities:
 [Homework for Week 1](hw/week1.md)
 
 
-### Week 2: Monday, February 4, 2018
+## Week 2: Monday, February 4, 2019
 
 Homework Review
 - What did you learn from Shiffman's videos?
@@ -29,7 +29,7 @@ Intro to p5.js
 - `function setup` and `function draw`
 - (`x`,`y`) coordinates and the Cartesian plane
 
-#### Workshop: Building Blocks of Code -- functions
+### Workshop: Building Blocks of Code -- functions
 
 You give the computer commands by first writing the name of the command, like `background`, followed by a comma-separated list, in parentheses, containing the parameters for the function: that is, how the function should be run.
 
@@ -75,7 +75,7 @@ function draw() {
 
 Run it in your editor, or run it on the [p5.js web editor](http://editor.p5js.org). (Either way, make sure to save frequently!)
 
-#### Building Blocks of Code: variables
+### Building Blocks of Code: variables
 
 Here's the modified program we wrote in class together, this time using variables.
 
@@ -132,7 +132,7 @@ Naming is a very useful tool in our **abstraction** toolkit.
 
 2. Explore some of the other variables the p5.js provides. `mouseX` and `mouseY` are a fun interactive pairing!
 
-#### Animations
+### Animations
 
 One use of variables, explored above, is to name information and use that name to link other components together.
 
@@ -259,3 +259,40 @@ function draw() {
 
 
 [Homework for Week 2](hw/week2.md)
+
+## Week 3: Monday, February 11, 2019
+
+### Homework Review
+
+What did you learn from Shiffman's videos?
+- What are variables?
+- What is an animation?
+- What is a condition? What kinds of conditions can you have?
+- Variable names and variable intents.
+
+### Alternative color spaces, including HSB
+
+We talked about alternative color spaces to the RGB model we've been using so far, including HSB (Hue Saturation Brightness).  We used the color picker tools at [colorizer.org](http://colorizer.org/) as an example.
+
+### Exploring Code -- a workshop about variables, conditions, and animations
+
+We explored some more complication animations, and then worked in small groups on extending them to do more interesting things.  Here are the original versions of those three sketches, along some some of the possible extensions we discussed for each program:
+
+* [Water Dripping](sketches/dripping.js)
+    * Add more drops!
+    * Make the pipe leaky: add drops from other points on the pipe.
+    * Add drops from the top of the canvas too.
+    * Add a puddle at the bottom that "grows" as it collcets drops.
+<p>
+
+* [Grid of Circles](sketches/grid.js)
+    * Make each circle shift in hue just slightly from the previous one, instead of randomly.
+    * Instead of drawing the circles sequentially, draw them randomly -- but maintain the grid pattern!
+<p>
+
+* [Smokestack](sketches/smokestack.js)
+    * Add additional independent "smoke" particles.
+    * Give some of those particles movement in the `y` direction too.
+    * Add more smokestacks.
+
+[Homework for Week 3](hw/week3.md)

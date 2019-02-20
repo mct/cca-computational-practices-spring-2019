@@ -296,3 +296,48 @@ We explored some more complication animations, and then worked in small groups o
     * Add more smokestacks.
 
 [Homework for Week 3](hw/week3.md)
+
+
+## Week 4: Monday, February 18, 2019
+
+We covered three big topics this week: **loops**, **arrays**, and **objects**
+
+Here's a cheat sheet for loops:
+
+```javascript
+for (var i = 0; i < 10; i = i + 1) {
+  print(i);
+}
+```
+
+- `var i = 0;` -- The **initializer** section, runs before the loop starts
+- `i < 10` -- The **condition** section, runs each time through the loop to check if loop should run again
+- `i = i + 1` -- The **increment** section, runs after the loop body to change the loop variable
+- `print(i)` -- The **body**, the actual code in the loop that is run repeatedly
+
+Here's a cheat sheet for arrays:
+
+- `var listName = [];` -- create a new, empty array
+- `listName[3]` -- access item at index 3 (the *fourth* item) in the array
+- `listName[3] = 7` -- set the item at index 3 to the number 7.
+- `listName.push(12)` -- add the number 12 to the end of the array
+- `listName.length` -- get the number of elements in the array
+
+Loops and often used to apply a block of code to each element in the array.  We call this "iterating over the array."  For example, this code loops over an array called "circles" and uses each element in the array as the X coordinate for where to draw a circle:
+
+```javascript
+  var circles = [ 25, 100, 200, 42, 300, 158 ];
+
+  for (var i = 0; i < circles.length; i++) {
+    ellipse(circles[i], 200, 20);
+  }
+```
+
+Finally, here are example programs based on the ones we went over during class:
+
+* [loop.js](sketches/loop.js)
+* [object.js](sketches/object.js)
+* [arrays.js](sketches/arrays.js)
+* [array-of-objects.js](sketches/array-of-objects.js)
+
+[Homework for Week 4](hw/week4.md)

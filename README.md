@@ -341,3 +341,13 @@ Finally, here are example programs based on the ones we went over during class:
 * [array-of-objects.js](sketches/array-of-objects.js)
 
 [Homework for Week 4](hw/week4.md)
+
+## Week 5: Monday, February 25, 2019
+
+We talked about designing and implementing from scratch a P5 sketch of
+moderate complexity by splitting it up into four parts: (1) the data
+structures (variables), (2) rendering, (3) user input, and (4) program
+logic.  In class, we implemented a bare-bones clone of the classic
+game of Pong: [pong.js](sketches/pong.js)
+
+[Homework for Week 5](hw/week5.md)

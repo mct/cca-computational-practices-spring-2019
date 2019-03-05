@@ -351,3 +351,19 @@ logic.  In class, we implemented a bare-bones clone of the classic
 game of Pong: [pong.js](sketches/pong.js)
 
 [Homework for Week 5](hw/week5.md)
+
+## Week 6: Monday, March 4, 2019
+
+Here are the sample sound programs we went over in class 
+
+* [Simple Doorbell](https://editor.p5js.org/toren/sketches/rJn-yzijm)
+* [Doorbell](https://editor.p5js.org/toren/sketches/B1UmyfioX)
+* [Telephone](https://editor.p5js.org/toren/sketches/SkUrD1GoX)
+* [Keyboard Keyboard](https://editor.p5js.org/toren/sketches/HyC_ekzsQ)
+* [Dripping with Sound](https://editor.p5js.org/toren/sketches/r1S-0jjom)
+
+And here are three programs you can use for inspriation for your midterm project, if you like:
+
+* [Fonty](https://editor.p5js.org/toren/sketches/B1BwgkGiQ)
+* [Musical Bounces](https://editor.p5js.org/toren/sketches/BymLlkGi7)
+* [Lines from Circles](https://editor.p5js.org/toren/sketches/SyTKeyMsm)

@@ -354,7 +354,7 @@ game of Pong: [pong.js](sketches/pong.js)
 
 ## Week 6: Monday, March 4, 2019
 
-Here are the sample sound programs we went over in class 
+This week, we talked about adding sound effects to your P5 programs.  Here are the sample programs we went over in class:
 
 * [Simple Doorbell](https://editor.p5js.org/toren/sketches/rJn-yzijm)
 * [Doorbell](https://editor.p5js.org/toren/sketches/B1UmyfioX)
@@ -367,3 +367,10 @@ And here are three programs you can use for inspriation for your midterm project
 * [Fonty](https://editor.p5js.org/toren/sketches/B1BwgkGiQ)
 * [Musical Bounces](https://editor.p5js.org/toren/sketches/BymLlkGi7)
 * [Lines from Circles](https://editor.p5js.org/toren/sketches/SyTKeyMsm)
+
+The two websites we talked about where you can download all kinds of random sound clips for use in your programs:
+
+* [freesound.org](https://freesound.org/)
+* [soundbible.com](http://soundbible.com/)
+
+[Homework for Week 6](hw/week6.md)

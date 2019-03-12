@@ -374,3 +374,10 @@ The two websites we talked about where you can download all kinds of random soun
 * [soundbible.com](http://soundbible.com/)
 
 [Homework for Week 6](hw/week6.md)
+
+## Week 7: Monday, March 11, 2019
+
+We worked in class this week on your midterm Music and Motion mini-project,
+which you will be presenting in class next week for critique.
+
+[Homework for Week 7](hw/week7.md)

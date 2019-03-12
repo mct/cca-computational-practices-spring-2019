@@ -1,4 +1,4 @@
-## Homework 5 (due Saturday, March 9, 2019, 11:59pm)
+## Homework 6 (due Saturday, March 9, 2019, 11:59pm)
 
 You will be submitting each homework assignment into a new GitHub repository each week. [Here are instructions on how to do so.](https://github.com/zamfi/github-guide/blob/master/README.md) Please email me if you have any questions.
 

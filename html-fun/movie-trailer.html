@@ -1,0 +1,55 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<title>Movie Trailer Generator</title>
+</head>
+
+<body>
+
+  <p>
+  <button onclick="addNewStory()">One more!</button>
+  </p>
+
+  <div id="main"></div>
+
+  <script>
+
+    /*
+     * Returns a randomly selected element of inputArray
+     */
+    function randomElement(inputArray) {
+        return inputArray[Math.floor(Math.random() * inputArray.length)];
+    }
+
+    var years = [ "2025", "3001", "2099" ]
+
+    var qty = [ "two", "three", "twelve", "seventeen", "ninety-nine",
+                 "one hundred", "a million", "an army of" ];
+
+    var adj = [ "beleaguered", "sad", "lonely", "angry", "tiny", "giant" ];
+
+    var protagonist = [ "librarians", "dolphins", "zookeepers", "scientists",
+                        "robots" ];
+
+    var action = [ "fight", "eat", "destroy", "look deep within to understand",
+                    "risk everything to save" ];
+
+    var antagonist = [ "whales", "penguins", "clowns", "llamas",
+                        "the king", "humanity", "the world",
+                        "Snow White and the Seven Dwarves" ];
+
+    function addNewStory() {
+        var text = "In the year ";
+        text += randomElement(years) + ", ";
+        text += randomElement(qty) + " ";
+        text += randomElement(adj) + " ";
+        text += randomElement(protagonist) + " ";
+        text += randomElement(action) + " ";
+        text += randomElement(antagonist) + " ";
+        $('#main').append($('<div>').text(text));
+    }
+
+    addNewStory();
+  </script>
+</body>
+</html>

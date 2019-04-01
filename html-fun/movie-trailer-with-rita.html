@@ -1,0 +1,36 @@
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="rita.min.js"></script>
+  <title>Movie Trailer Generator</title>
+</head>
+
+<body>
+  <button onclick="addNewStory()">One more!</button>
+  <div id="main"></div>
+
+  <script>
+    let rules = {
+      '<start>': "In the year <year>, <protagonist> must <action> <antagonist>.",
+      '<year>': "2025 | 2099 | 3001",
+      '<protagonist>': "<qty> <adj> <plnoun> | one <adj> <noun> | <protagonist> and <protagonist>",
+      '<adj>': "beleaguered | sad | lonely | angry | tiny | giant | <adj> <adj> | very <adj>",
+      '<qty>': "three | two | twelve | ninety-nine | an army of",
+      '<noun>': "librarian | dolphin | zookeeper | scientist | robot",
+      '<plnoun>': "librarians | dolphins | zookeepers | scientists | robots",
+      '<action>': "save <target> from | eat | destroy | look deep within to understand | risk <protagonist> to save",
+      '<target>': "humanity | the world | Snow White and the Seven Dwarves",
+      '<antagonist>': "<protagonist>"
+    }
+
+    let grammar = new RiGrammar(rules);
+
+    function addNewStory() {
+      var story = grammar.expand();
+      $('#main').append($('<div>').text(story));
+    }
+
+    addNewStory();
+  </script>
+</body>
+</html>
